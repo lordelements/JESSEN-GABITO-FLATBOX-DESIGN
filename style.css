@@ -153,9 +153,22 @@ body {
 
         /* CHAT FORM STYLING*/
 
-@media screen and (max-width: 400px) {
-    .chatbox {
-      width: 100%;
-      font-size: 80px;
+@media only screen and (min-width: 600px) {
+    body{
+        width: 100%;
+        height: auto;
+        font-size: small;
+        background-color: #6aa3f8;
     }
-  }
+    .chatbox{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    body{
+        width: 100%;
+        height: auto;
+        font-size: small;
+        background-color: #eee;
+    }
+}
